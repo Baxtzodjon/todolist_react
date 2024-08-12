@@ -3,13 +3,32 @@ import './App.css'
 import TodoWrapper from './components/TodoWrapper'
 
 function App() {
-  
+
   return (
     <>
 
-      <div className='container'>
+      <div className='wrapper'>
 
-        <TodoWrapper />
+        <div className='box'>
+
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+        </div>
+
+        <div className='container'>
+
+          <TodoWrapper />
+
+        </div>
 
       </div>
 
